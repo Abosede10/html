@@ -10,11 +10,11 @@
     <h1 id="h1">Welcome to my First HTML Page</h1>
     <h2 id="h2">This is going to be an adverture!</h2>
     <p id="reason">
-        I want to be a software engeer because i want to make be able to create things and solve also solve problem.
+        I want to become a software engeer because i want to make be able to create things and also solve problem.
     </p>
     <a href="https://finance.yahoo.com/" id="external_link">Yahoo Finance</a>
     <div>
-        <img src="image/puppy.jpeg" alt="Puppy" id="image">
+        <img src="image/puppy.jpeg" id="image" alt="Puppy">
     </div>
     <ol id="ordered" type="1"> 
         <li id="service1">Web Support and Maintenance.</li>
@@ -26,24 +26,25 @@
         <li id="country2">Greece</li>
         <li id="country3">Luexemburg</li>
     </ul>
-   <div>
-        <input type="text" placeholder="Full Name" id="name"> 
-   </div>
-   <div>
-        <input type="email" placeholder="Email Address" id="email_address">
-   </div>
-   <div>
-       <textarea name="" id="text_area" cols="30" rows="10"></textarea>
-   </div>
-    <div>
-    <p>Please select gender</p>
+
+
+   <form>
+        <input type="text" placeholder="Full Name" id="name"> <br> 
+        <input type="email" placeholder="Email Address" id="email_address"><br>
+       <textarea name="textarea" id="text_area" cols="30" rows="10" placeholder="Type your message"></textarea>
+   </form>
+
+    <form>
+        Please select gender <br>
         <input type="radio" id="radio_male" name="male" value="male">
         <label for="radio_male"> Male</label><br>
         <input type="radio" id="radio_female" name="Female" value="female">
         <label for="radio_female">Female</label><br>
-    </div>
-    <div>
-        <p>Pick your Hobbies</p>
+    </form>
+    <br>
+
+    <form>
+         Hobbies: <br />
         <input type="checkbox" id="check-box" value="Reading">
         <label for="Check-out"> Reading</label><br>
         <input type="checkbox" id="check-box"  value="travelling">
@@ -54,10 +55,11 @@
         <label for="check-box"> Singing</label><br>
         <input type="checkbox" id="check-box" value="dancing">
         <label for="check-box"> Dancing</label><br>
-    </div>
-    <div>
+    </form>
+    <br>
+    <form>
         <button type="submit" id="submit_button"> Submit</button> 
-    </div>
+    </form>
 
 <footer>
     <ul>
